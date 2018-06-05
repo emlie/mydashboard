@@ -1,10 +1,75 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+
     <meta charset="utf-8">
     <title>My Dashboard</title>
+
+    <link rel="stylesheet" href="master.css">
+
+    <!--
+    vue.js (must be linked in head)
+    development version, includes helpful console warnings
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+
+    <!-- animation library animate.css-->
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@3.5.1" rel="stylesheet" type="text/css">
+
   </head>
   <body>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDUB1lOS0d9Kk2gcy9HC7vwM3lH_bpQZTU",
+      authDomain: "mydashboard-91d0b.firebaseapp.com",
+      databaseURL: "https://mydashboard-91d0b.firebaseio.com",
+      projectId: "mydashboard-91d0b",
+      storageBucket: "mydashboard-91d0b.appspot.com",
+      messagingSenderId: "657410487683"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+
+
+
+
+  <div class="left">
+    <!-- personal -->
+  </div>
+
+
+
+
+
+  <div class="right">
+    <!-- work -->
+  </div>
+
+
+
+
+
+  <div class="center-top">
+    <!-- time and date -->
+  </div>
+
+
+
+
+
+  <div class="center-bottom">
+    <!-- credit -->
+  </div>
+
+
+
+
 
   </body>
 </html>
